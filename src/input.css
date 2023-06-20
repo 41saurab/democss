@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar{
+    @apply  text-lg container m-auto p-2;
+}
+
+.heading{
+    @apply font-bold text-xl text-blue-500 ;
+}
+.color-card{
+    @apply container flex border shadow-xl hover:shadow-purple-500 m-auto p-2 rounded-lg;
+}
+
+.cards{
+    @apply border  p-5 rounded-lg hover:shadow-lg;
+}
+
+.edit{
+    @apply bg-blue-500 font-bold rounded-md  hover:text-white p-2 m-2;
+}
+
+.delete{
+    @apply  bg-red-500 font-bold rounded-md  hover:text-white p-2 m-2;
+}
+
+.save{
+    @apply  bg-green-500 font-bold rounded-md  hover:text-white p-2 m-2;
+}
