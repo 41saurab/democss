@@ -2,134 +2,89 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwind</title>
-    <link rel="stylesheet" href="../dist/output.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="../dist/output.css">
 </head>
 
 <body>
-    <!-- navigation -->
-    <section class="bg-blue-500 mb-5">
-        <div class="navbar">
-            <a class="me-4 hover:text-white" href="">Home</a>
-            <a class="me-4 hover:text-white" href="">Services</a>
-            <a class="me-4 hover:text-white" href="">Gallery</a>
-            <a class="me-4 hover:text-white" href="">Contact</a>
-            <a class="me-4 hover:text-white" href="">About</a>
+    <nav class="navbar">
+        <div class="container py-4">
+            <a class="menu" href="">Home</a>
+            <a class="menu" href="">Services</a>
+            <a class="menu" href="">Gallery</a>
+            <a class="menu" href="">About</a>
+            <a class="menu" href="">Contact</a>
         </div>
-    </section>
+    </nav>
 
-    <!-- images -->
-    <section class="m-5 p-7">
-        <div class="container col-span-3 m-auto relative ">
-            <img class="w-full transition duration-300 ease-in-out hover:scale-110 "
-                src="https://img.freepik.com/free-photo/leafy-tree-branch-vibrant-autumn-colors-generated-by-ai_188544-10399.jpg?size=626&ext=jpg&ga=GA1.2.889910164.1684942001"
-                alt="" />
-        </div>
-    </section>
+    <!-- hero -->
+    <section class="py-10">
+        <div class="card">
+            <div>
+                <h1 class=" text-3xl font-bold text-purple-500 my-5">Learn Coding here.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ratione qui aliquam veritatis repellat
+                    aut cupiditate dolorem dolor! Odio, dolorem. Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Quos distinctio accusantium nihil blanditiis nesciunt, dicta dolore reiciendis hic repellendus
+                    voluptatibus!
+                </p>
+                <button class="readmore">Read more...</button>
+            </div>
 
-    <!-- hover-glow-card -->
-    <section class="mb-5">
-        <div class="color-card">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2">
-                    <h2 class="font-bold text-3xl text-blue-600">
-                        With purple flower on the left.
-                    </h2>
-                </div>
-                <div class="col-span-1">
-                    <img src="https://img.freepik.com/free-photo/painting-flowers-with-purple-flower-left_1340-23754.jpg?w=1380&t=st=1687185934~exp=1687186534~hmac=1542f3de986392209f9551719dd8414d205404819bbbae18812afc8de3ad0228"
-                        alt="" />
-                </div>
-                <div class="col-span-1">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-                        nemo assumenda minima architecto quaerat provident repellendus
-                        autem hic eaque? Laboriosam possimus deserunt iure. Consequatur,
-                        alias commodi ratione blanditiis omnis dolores facilis delectus
-                        voluptate fugiat aliquid dignissimos cumque dolorum? In dicta
-                        fuga, nostrum nulla incidunt suscipit atque earum nobis recusandae
-                        obcaecati ad quas quae iure itaque repellat soluta eos, ut
-                        distinctio?
-                    </p>
-                </div>
+
+            <div class="ps-48">
+                <img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1687272702~exp=1687273302~hmac=d6169b8616289353997b132c4eb2390fe0b1aef42331425f41754be73bf95e21"
+                    alt="" style="border-radius: 50%; width: 500px; height: 500px;">
             </div>
         </div>
     </section>
 
-    <!-- cards -->
-    <section class="mb-5">
-        <div class="container m-auto grid grid-cols-3 gap-4">
-            <div class="cards">
-                <h1 class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+    <!-- services -->
+    <section class="py-10">
+        <div class="container grid grid-cols-3 gap-8">
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-            <div class="cards">
-                <h1 class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-            <div class="cards">
-                <h1 class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-            <div class="cards">
-                <h1 class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-            <div class="cards">
-                <h1 class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-            <div class="cards">
-                <h1 class="heading" class="heading">Flowers</h1>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit minima
-                    aliquam quidem dolor placeat, voluptas est, maxime ratione tenetur
-                    temporibus nemo ullam facere ea eveniet recusandae corporis qui
-                    nihil mollitia porro aut quos. Animi assumenda fugiat quas fuga
-                    reiciendis praesentium!
-                </p>
+            <div>
+                <h1 class="heading">Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores praesentium quos
+                    cupiditate quae eaque error explicabo aliquid rem molestias excepturi, maiores eos quod vel dolores
+                    dolorum fugit deleniti neque veniam similique! Praesentium, officiis aperiam nobis quia quibusdam
+                    voluptates impedit.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- curd -->
-    <section class="mb-5">
-        <div class="flex justify-center items-center">
-            <a class="edit" href="">Edit</a>
-            <a class="delete" href="">Delete</a>
-            <a class="save" href="">Save</a>
         </div>
     </section>
 </body>
